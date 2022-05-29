@@ -189,6 +189,8 @@ if(isset($_POST['actualizar'])){
     $Precio = $_POST["precio"];
 
     $Descripcion = $_POST["descripcion"];
+
+    $Marca = $_POST["marca"];
     //Imagen
     $nombreImg = $_FILES['img']['name'];
     $ruta = $_SERVER['DOCUMENT_ROOT'] . '/ProyectoFinalDAW/Imagenes/productos/';
