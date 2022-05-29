@@ -123,6 +123,9 @@ error_reporting(E_ALL);
                         <div class="invalid-feedback">
                         El nombre de usuario debe tener una logitud entre 6 y 20 caracteres.
                         </div>
+                        <div class="valid-feedback">
+                        Correcto!
+                        </div>
                     </div>
                 </div>
 
