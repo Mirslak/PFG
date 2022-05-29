@@ -100,8 +100,8 @@ INSERT INTO `producto` (`id_producto`, `nombre`, `precio`, `descripcion`, `marca
 
 CREATE TABLE `usuario` (
   `id` int NOT NULL,
-  `user` varchar(16) CHARACTER SET utf8 COLLATE utf8_spanish2_ci NOT NULL,
-  `password` varchar(16) NOT NULL,
+  `user` varchar(255) CHARACTER SET utf8 COLLATE utf8_spanish2_ci NOT NULL,
+  `password` varchar(255) NOT NULL,
   `nombre` varchar(255) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
   `apellido1` varchar(255) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
   `apellido2` varchar(255) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
